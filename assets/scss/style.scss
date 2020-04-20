@@ -12,3 +12,36 @@ Author URI:         https://jamesdordoy.co.uk
 @tailwind components;
 
 @tailwind utilities;
+
+
+.main-navigation {
+
+}
+
+.main-navigation ul {
+    
+}
+
+.main-navigation ul li {
+    @apply inline-block px-4 py-2 text-sm font-semibold bg-transparent rounded-lg;
+}
+
+.main-navigation ul li:hover {
+    @apply text-gray-900  bg-gray-200;
+}
+
+.main-navigation ul li:focus {
+    @apply text-gray-900 bg-gray-200 outline-none shadow-outline;
+}
+
+.menu-footer-menu-links-container {
+    margin: auto;
+}
+
+.footer-navigation ul li {
+    @apply inline-block underline text-blue-400;
+}
+
+.footer-navigation ul li:hover {
+    @apply no-underline;
+}
